@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+  width="120"
+  height="120"
+  viewBox="0 0 120 120"
+  version="1.1"
+  id="svg6"
+  sodipodi:docname="zenith-flow-logo.svg"
+  inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+    id="namedview6"
+    pagecolor="#ffffff"
+    bordercolor="#000000"
+    borderopacity="0.25"
+    inkscape:showpageshadow="2"
+    inkscape:pageopacity="0.0"
+    inkscape:pagecheckerboard="0"
+    inkscape:deskcolor="#d1d1d1"
+    inkscape:zoom="4.648667"
+    inkscape:cx="14.197618"
+    inkscape:cy="85.508383"
+    inkscape:window-width="1920"
+    inkscape:window-height="1129"
+    inkscape:window-x="1912"
+    inkscape:window-y="732"
+    inkscape:window-maximized="1"
+    inkscape:current-layer="svg6" />
+  <defs
+    id="defs4">
+    <linearGradient
+      id="peakGrad"
+      x1="27.386128"
+      y1="27.386128"
+      x2="27.386128"
+      y2="82.158384"
+      gradientTransform="scale(1.0954451,0.91287093)"
+      gradientUnits="userSpaceOnUse">
+      <stop
+        offset="0%"
+        style="stop-color:#2ed573"
+        id="stop1" />
+      <stop
+        offset="1"
+        style="stop-color:#2ed5c6;stop-opacity:1;"
+        id="stop2" />
+    </linearGradient>
+    <linearGradient
+      id="waveGrad"
+      x1="5.8901494"
+      y1="246.01204"
+      x2="33.377513"
+      y2="246.01204"
+      gradientTransform="matrix(2.5031363,0,0,0.26803537,10.853844,10.56272)"
+      gradientUnits="userSpaceOnUse">
+      <stop
+        offset="0%"
+        style="stop-color:#54a0ff"
+        id="stop3" />
+      <stop
+        offset="100%"
+        style="stop-color:#5f27cd"
+        id="stop4" />
+    </linearGradient>
+    <linearGradient
+      inkscape:collect="always"
+      xlink:href="#waveGrad"
+      id="linearGradient6"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="matrix(2.5031363,0,0,0.26803537,10.853844,17.169597)"
+      x1="5.8901494"
+      y1="246.01204"
+      x2="33.377513"
+      y2="246.01204" />
+    <linearGradient
+      inkscape:collect="always"
+      xlink:href="#waveGrad"
+      id="linearGradient7"
+      gradientUnits="userSpaceOnUse"
+      gradientTransform="matrix(2.5031363,0,0,0.26803537,10.853844,11.169597)"
+      x1="5.8901494"
+      y1="246.01204"
+      x2="33.377513"
+      y2="246.01204" />
+  </defs>
+  <!-- Simplified mountain -->
+  <!-- Flowing wave -->
+  <g
+    id="g7"
+    transform="matrix(1.744069,0,0,1.744069,-44.64414,-40.700025)">
+    <path
+      d="M 60,25 90,75 H 30 Z"
+      fill="url(#peakGrad)"
+      id="path4"
+      style="display:inline;fill:url(#peakGrad)" />
+    <path
+      d="m 27.235896,80.793318 q 16.382052,-4.095513 32.764104,0 16.382052,4.095513 32.764104,0"
+      stroke="url(#waveGrad)"
+      stroke-width="3.27641"
+      fill="none"
+      stroke-linecap="round"
+      id="path5"
+      style="display:inline;stroke:url(#linearGradient7)" />
+    <path
+      d="m 27.235896,86.793318 q 16.382052,-4.095513 32.764104,0 16.382052,4.095513 32.764104,0"
+      stroke="url(#waveGrad)"
+      stroke-width="3.27641"
+      fill="none"
+      stroke-linecap="round"
+      id="path6"
+      style="display:inline;stroke:url(#linearGradient6)" />
+  </g>
+</svg>
