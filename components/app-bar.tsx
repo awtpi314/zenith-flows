@@ -48,7 +48,7 @@ export default async function AppBar() {
       <DropdownMenu>
         <DropdownMenuTrigger className="ml-auto">
           <Avatar>
-            <AvatarImage src={user?.image ?? "/person.svg"} alt="User Avatar" />
+            <AvatarImage className="bg-muted-foreground" src={user?.image ?? "/person.svg"} alt="User Avatar" />
             <AvatarFallback>
               <UserRound className="animate-[pulse_900ms_ease-in-out_infinite]" />
             </AvatarFallback>
