@@ -49,7 +49,7 @@ export default auth((req) => {
   }
 
   if (!isAuthenticated(req)) {
-    const loginUrl = new URL("/login", req.url);
+    const loginUrl = new URL("/api/auth/signin", req.url);
     loginUrl.searchParams.set("redirect", pathname);
     return NextResponse.redirect(loginUrl);
   }

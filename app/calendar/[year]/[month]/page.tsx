@@ -1,4 +1,3 @@
-import { auth } from "@/auth";
 import Calendar from "@/components/calendar/calendar";
 
 export default async function CalendarPage({ params }: { params: Promise<{ year: string; month: string }> }) {

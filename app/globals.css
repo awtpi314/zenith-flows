@@ -45,112 +45,112 @@
 
 :root {
   --radius: 0.65rem;
-  
+
   /* Light mode - Converted from Material Design tokens */
-  --background: rgb(253 247 255);                    /* md-sys-color-background */
-  --foreground: rgb(29 27 32);                       /* md-sys-color-on-background */
-  
+  --background: rgb(253 247 255); /* md-sys-color-background */
+  --foreground: rgb(29 27 32); /* md-sys-color-on-background */
+
   /* Cards and surfaces */
-  --card: rgb(242 236 244);                          /* md-sys-color-surface-container */
-  --card-foreground: rgb(29 27 32);                  /* md-sys-color-on-surface */
-  --popover: rgb(248 242 250);                       /* md-sys-color-surface-container-low */
-  --popover-foreground: rgb(29 27 32);               /* md-sys-color-on-surface */
-  
+  --card: rgb(242 236 244); /* md-sys-color-surface-container */
+  --card-foreground: rgb(29 27 32); /* md-sys-color-on-surface */
+  --popover: rgb(248 242 250); /* md-sys-color-surface-container-low */
+  --popover-foreground: rgb(29 27 32); /* md-sys-color-on-surface */
+
   /* Primary - Material Design Primary */
-  --primary: rgb(101 85 143);                        /* md-sys-color-primary */
-  --primary-foreground: rgb(255 255 255);            /* md-sys-color-on-primary */
-  
+  --primary: rgb(101 85 143); /* md-sys-color-primary */
+  --primary-foreground: rgb(255 255 255); /* md-sys-color-on-primary */
+
   /* Secondary - Material Design Secondary */
-  --secondary: rgb(232 222 248);                     /* md-sys-color-secondary-container */
-  --secondary-foreground: rgb(74 68 88);             /* md-sys-color-on-secondary-container */
-  
+  --secondary: rgb(232 222 248); /* md-sys-color-secondary-container */
+  --secondary-foreground: rgb(74 68 88); /* md-sys-color-on-secondary-container */
+
   /* Muted backgrounds */
-  --muted: rgb(231 224 235);                         /* md-sys-color-surface-variant */
-  --muted-foreground: rgb(73 69 78);                 /* md-sys-color-on-surface-variant */
-  
+  --muted: rgb(231 224 235); /* md-sys-color-surface-variant */
+  --muted-foreground: rgb(73 69 78); /* md-sys-color-on-surface-variant */
+
   /* Accent - Material Design Tertiary */
-  --accent: rgb(255 217 227);                        /* md-sys-color-tertiary-container */
-  --accent-foreground: rgb(99 59 72);                /* md-sys-color-on-tertiary-container */
-  
+  --accent: rgb(255 217 227); /* md-sys-color-tertiary-container */
+  --accent-foreground: rgb(99 59 72); /* md-sys-color-on-tertiary-container */
+
   /* Destructive/Error */
-  --destructive: rgb(186 26 26);                     /* md-sys-color-error */
-  --destructive-foreground: rgb(255 255 255);        /* md-sys-color-on-error */
-  
+  --destructive: rgb(186 26 26); /* md-sys-color-error */
+  --destructive-foreground: rgb(255 255 255); /* md-sys-color-on-error */
+
   /* Borders and inputs */
-  --border: rgb(202 196 207);                        /* md-sys-color-outline-variant */
-  --input: rgb(231 224 235);                         /* md-sys-color-surface-variant */
-  --ring: rgb(101 85 143);                           /* md-sys-color-primary */
-  
+  --border: rgb(202 196 207); /* md-sys-color-outline-variant */
+  --input: rgb(231 224 235); /* md-sys-color-surface-variant */
+  --ring: rgb(101 85 143); /* md-sys-color-primary */
+
   /* Chart colors using Material Design palette variations */
-  --chart-1: rgb(101 85 143);                        /* Primary */
-  --chart-2: rgb(98 91 112);                         /* Secondary */
-  --chart-3: rgb(126 82 96);                         /* Tertiary */
-  --chart-4: rgb(207 189 254);                       /* Primary fixed dim */
-  --chart-5: rgb(204 194 219);                       /* Secondary fixed dim */
-  
+  --chart-1: rgb(101 85 143); /* Primary */
+  --chart-2: rgb(98 91 112); /* Secondary */
+  --chart-3: rgb(126 82 96); /* Tertiary */
+  --chart-4: rgb(207 189 254); /* Primary fixed dim */
+  --chart-5: rgb(204 194 219); /* Secondary fixed dim */
+
   /* Sidebar */
-  --sidebar: rgb(248 242 250);                       /* md-sys-color-surface-container-low */
-  --sidebar-foreground: rgb(29 27 32);               /* md-sys-color-on-surface */
-  --sidebar-primary: rgb(101 85 143);                /* md-sys-color-primary */
-  --sidebar-primary-foreground: rgb(255 255 255);    /* md-sys-color-on-primary */
-  --sidebar-accent: rgb(242 236 244);                /* md-sys-color-surface-container */
-  --sidebar-accent-foreground: rgb(29 27 32);        /* md-sys-color-on-surface */
-  --sidebar-border: rgb(202 196 207);                /* md-sys-color-outline-variant */
-  --sidebar-ring: rgb(101 85 143);                   /* md-sys-color-primary */
+  --sidebar: rgb(248 242 250); /* md-sys-color-surface-container-low */
+  --sidebar-foreground: rgb(29 27 32); /* md-sys-color-on-surface */
+  --sidebar-primary: rgb(101 85 143); /* md-sys-color-primary */
+  --sidebar-primary-foreground: rgb(255 255 255); /* md-sys-color-on-primary */
+  --sidebar-accent: rgb(242 236 244); /* md-sys-color-surface-container */
+  --sidebar-accent-foreground: rgb(29 27 32); /* md-sys-color-on-surface */
+  --sidebar-border: rgb(202 196 207); /* md-sys-color-outline-variant */
+  --sidebar-ring: rgb(101 85 143); /* md-sys-color-primary */
 }
 
 .dark {
   /* Dark mode - Converted from Material Design dark tokens */
-  --background: rgb(20 18 24);                       /* md-sys-color-background */
-  --foreground: rgb(230 224 233);                    /* md-sys-color-on-background */
-  
+  --background: rgb(20 18 24); /* md-sys-color-background */
+  --foreground: rgb(230 224 233); /* md-sys-color-on-background */
+
   /* Cards and surfaces */
-  --card: rgb(33 31 36);                             /* md-sys-color-surface-container */
-  --card-foreground: rgb(230 224 233);               /* md-sys-color-on-surface */
-  --popover: rgb(29 27 32);                          /* md-sys-color-surface-container-low */
-  --popover-foreground: rgb(230 224 233);            /* md-sys-color-on-surface */
-  
+  --card: rgb(33 31 36); /* md-sys-color-surface-container */
+  --card-foreground: rgb(230 224 233); /* md-sys-color-on-surface */
+  --popover: rgb(29 27 32); /* md-sys-color-surface-container-low */
+  --popover-foreground: rgb(230 224 233); /* md-sys-color-on-surface */
+
   /* Primary - Material Design Primary (dark) */
-  --primary: rgb(207 189 254);                       /* md-sys-color-primary */
-  --primary-foreground: rgb(54 38 93);               /* md-sys-color-on-primary */
-  
+  --primary: rgb(207 189 254); /* md-sys-color-primary */
+  --primary-foreground: rgb(54 38 93); /* md-sys-color-on-primary */
+
   /* Secondary - Material Design Secondary (dark) */
-  --secondary: rgb(74 68 88);                        /* md-sys-color-secondary-container */
-  --secondary-foreground: rgb(232 222 248);          /* md-sys-color-on-secondary-container */
-  
+  --secondary: rgb(74 68 88); /* md-sys-color-secondary-container */
+  --secondary-foreground: rgb(232 222 248); /* md-sys-color-on-secondary-container */
+
   /* Muted backgrounds */
-  --muted: rgb(43 41 47);                            /* md-sys-color-surface-container-high */
-  --muted-foreground: rgb(202 196 207);              /* md-sys-color-on-surface-variant */
-  
+  --muted: rgb(43 41 47); /* md-sys-color-surface-container-high */
+  --muted-foreground: rgb(202 196 207); /* md-sys-color-on-surface-variant */
+
   /* Accent - Material Design Tertiary (dark) */
-  --accent: rgb(99 59 72);                           /* md-sys-color-tertiary-container */
-  --accent-foreground: rgb(255 217 227);             /* md-sys-color-on-tertiary-container */
-  
+  --accent: rgb(99 59 72); /* md-sys-color-tertiary-container */
+  --accent-foreground: rgb(255 217 227); /* md-sys-color-on-tertiary-container */
+
   /* Destructive/Error (dark) */
-  --destructive: rgb(255 180 171);                   /* md-sys-color-error */
-  --destructive-foreground: rgb(105 0 5);            /* md-sys-color-on-error */
-  
+  --destructive: rgb(255 180 171); /* md-sys-color-error */
+  --destructive-foreground: rgb(105 0 5); /* md-sys-color-on-error */
+
   /* Borders and inputs */
-  --border: rgb(73 69 78);                           /* md-sys-color-outline-variant */
-  --input: rgb(43 41 47);                            /* md-sys-color-surface-container-high */
-  --ring: rgb(207 189 254);                          /* md-sys-color-primary */
-  
+  --border: rgb(73 69 78); /* md-sys-color-outline-variant */
+  --input: rgb(43 41 47); /* md-sys-color-surface-container-high */
+  --ring: rgb(207 189 254); /* md-sys-color-primary */
+
   /* Chart colors using Material Design dark palette */
-  --chart-1: rgb(207 189 254);                       /* Primary */
-  --chart-2: rgb(204 194 219);                       /* Secondary */
-  --chart-3: rgb(239 184 200);                       /* Tertiary */
-  --chart-4: rgb(101 85 143);                        /* Inverse primary */
-  --chart-5: rgb(98 91 112);                         /* Light secondary */
-  
+  --chart-1: rgb(207 189 254); /* Primary */
+  --chart-2: rgb(204 194 219); /* Secondary */
+  --chart-3: rgb(239 184 200); /* Tertiary */
+  --chart-4: rgb(101 85 143); /* Inverse primary */
+  --chart-5: rgb(98 91 112); /* Light secondary */
+
   /* Sidebar (dark) */
-  --sidebar: rgb(29 27 32);                          /* md-sys-color-surface-container-low */
-  --sidebar-foreground: rgb(230 224 233);            /* md-sys-color-on-surface */
-  --sidebar-primary: rgb(207 189 254);               /* md-sys-color-primary */
-  --sidebar-primary-foreground: rgb(54 38 93);       /* md-sys-color-on-primary */
-  --sidebar-accent: rgb(33 31 36);                   /* md-sys-color-surface-container */
-  --sidebar-accent-foreground: rgb(230 224 233);     /* md-sys-color-on-surface */
-  --sidebar-border: rgb(73 69 78);                   /* md-sys-color-outline-variant */
-  --sidebar-ring: rgb(207 189 254);                  /* md-sys-color-primary */
+  --sidebar: rgb(29 27 32); /* md-sys-color-surface-container-low */
+  --sidebar-foreground: rgb(230 224 233); /* md-sys-color-on-surface */
+  --sidebar-primary: rgb(207 189 254); /* md-sys-color-primary */
+  --sidebar-primary-foreground: rgb(54 38 93); /* md-sys-color-on-primary */
+  --sidebar-accent: rgb(33 31 36); /* md-sys-color-surface-container */
+  --sidebar-accent-foreground: rgb(230 224 233); /* md-sys-color-on-surface */
+  --sidebar-border: rgb(73 69 78); /* md-sys-color-outline-variant */
+  --sidebar-ring: rgb(207 189 254); /* md-sys-color-primary */
 }
 
 /* Additional Material Design utility classes */
@@ -291,5 +291,9 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+  button:not([disabled]),
+  [role="button"]:not([disabled]) {
+    cursor: pointer;
   }
 }

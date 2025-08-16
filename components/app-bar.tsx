@@ -6,7 +6,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-} from "@components/navigation-menu";
+} from "@components/ui";
 import { NotebookPen, UserRound } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -57,24 +57,24 @@ export default async function AppBar() {
         <DropdownMenuContent className="mr-6">
           {user ? (
             <>
-              <DropdownMenuItem asChild className="cursor-pointer">
+              <DropdownMenuItem asChild>
                 <Link href="/profile" className="dropdown-item">
                   Profile
                 </Link>
               </DropdownMenuItem>
-              <DropdownMenuItem asChild className="cursor-pointer">
+              <DropdownMenuItem asChild>
                 <Link href="/settings" className="dropdown-item">
                   Settings
                 </Link>
               </DropdownMenuItem>
-              <DropdownMenuItem asChild className="cursor-pointer">
+              <DropdownMenuItem asChild>
                 <Link href="/api/auth/signout" className="dropdown-item">
                   Sign out
                 </Link>
               </DropdownMenuItem>
             </>
           ) : (
-            <DropdownMenuItem asChild className="cursor-pointer">
+            <DropdownMenuItem asChild>
               <Link href="/api/auth/signin" className="dropdown-item">
                 Sign in
               </Link>
